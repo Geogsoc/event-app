@@ -14,9 +14,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <header>
+      <nav>
+        <img></img>
+        <a href='/'>Home</a>
+        <a href='/events'>Events</a>
+        <a href='about-us'>About Us</a>
+      </nav>
+      </header>
       <main className={`${styles.main} ${inter.className}`}>
        
       </main>
+      <footer className={`${styles.footer} ${inter.footer}`}>
+        <p>a website by elis</p>
+      </footer>
     </>
   );
 }
